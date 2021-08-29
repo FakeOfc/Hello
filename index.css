@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+a{
+    animation: bouncing 5s ease 0s infinite alternate both;
+    background-color: cyan;
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 400;
+    font-family: cursive;
+    letter-spacing: 0.2em;
+    padding: 2em 3em 2em;
+    position: relative;
+    vertical-align: top;
+    margin-top: 10em;
+    margin-left: 31.4%;
+}
+
+@keyframes bouncing{
+    0%{
+        bottom: 0;
+        box-shadow: 0 20px 5px rgba(226, 9, 38, 1);
+    }
+    25%{
+        transform: translateX(-40%);
+    }
+    50%{
+        transform: translateX(40%);
+    }
+    75%{
+        transform: translateX(-40%);
+    }
+    100%{
+        bottom: 200px;
+        box-shadow: 0 10px 5px rgba(226, 9, 38, 0.411);
+    }
+}
