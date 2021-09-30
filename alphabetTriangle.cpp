@@ -1,14 +1,7 @@
 #include<stdio.h>    
 #include<stdlib.h>  
 
-/*
-     A                                                                                                                                                        
-    ABA                                                                                                                                                       
-   ABCBA                                                                                                                                                      
-  ABCDCBA                                                                                                                                                     
- ABCDEDCBA 
- 
-*/
+
 int main(){  
   int ch=65;    
     int i,j,k,m;    
